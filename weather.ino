@@ -36,6 +36,10 @@ byte mac[] = { 0x2C, 0xF7, 0xF1, 0x08, 0x1E, 0xE1 };
 
 // Replace with server and DarkSky API Key to make this work.
 // Update if using the WiFi shield.
+//
+// Also update the latitude and longitude if you want to know the
+// weather at a location other than in Raleigh.
+
 #define SERVER  "(server).com"
 #define URI     "/wforward/api/(DarkSkyAppKey)/35.946,-78.61"
 

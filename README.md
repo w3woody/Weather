@@ -8,7 +8,7 @@ In order to use this library you must do a few things.
 
 First, you must set up a way to [forward requests](forwarding.md) from the HTTP request sent by the Arduino Ethernet Shield to the HTTPS-based DarkSky API service.
 
-Second, you must set up an account with [Dark Sky.](https://darksky.net/dev)
+Second, you must set up an account with [Dark Sky,](https://darksky.net/dev) and update the links in the Weather.ino file at lines 43 and 44 with the appropriate server/URI information.
 
 ## License
 
