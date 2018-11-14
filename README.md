@@ -1,6 +1,14 @@
 # Weather
 
-An Arduino program for reading and parsing DarkSky weather data and displaying it on a display shield. 
+An Arduino program for reading and parsing DarkSky weather data and displaying it on a display shield. For more information, see the article on the [Hacking Den web site.](https://hackingden.com/2018/11/14/showing-the-weather/)
+
+## Usage
+
+In order to use this library you must do a few things.
+
+First, you must set up a way to [forward requests](forwarding.md) from the HTTP request sent by the Arduino Ethernet Shield to the HTTPS-based DarkSky API service.
+
+Second, you must set up an account with [Dark Sky.](https://darksky.net/dev)
 
 ## License
 
